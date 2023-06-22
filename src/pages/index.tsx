@@ -16,6 +16,7 @@ const Home: NextPage = () => {
 
       <main className="container flex flex-col justify-center items-center mx-auto h-screen">
         <div className="fixed top-0 right-0 mt-6 mr-6">
+          <DarkModeButton />
           
         </div>
 
