@@ -32,7 +32,7 @@ export function DarkModeButton () {
       </button>
 
       <ReactTooltip
-        id="dark-tip"
+        anchorId="dark-tip"
         place="bottom"
         effect="solid"
         className={classNames(
