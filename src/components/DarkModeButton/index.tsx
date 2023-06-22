@@ -5,11 +5,9 @@ import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
 import { DarkModeContext } from '../../contexts/DarkModeContext'
 import { classNames } from '../../utils/classNames'
 
-interface ResultProps {
-  ReactTooltip: any;
-}
 
-const ReactTooltip = dynamic(() => import('react-tooltip'), {
+
+const ReactTooltip: any = dynamic(() => import('react-tooltip'), {
   ssr: false
 })
 
